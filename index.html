@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="main.js"></script>
+<!-- Importing Web Component's Polyfill -->
+<script src="lib/Platform.js"></script>
+<script src="lib/polymer.js"></script>
+<!-- Importing Custom Elements -->
+<link rel="import" href="src/phono.html"/>
+</head>
+<!-- HTML content to build DOM skeleton -->
+<body onload=init();>
+<div id="html5box" style="position: absolute; top: 120px; left: 453px; background-color: orange;">
+	Enter a valid SIP number, just below. <br>
+	Example: <b>9xxxxxxxx9@sip.tropo.com</b><br>
+	<input id="getsipnumber" value="9xxxxxxxx9@sip.tropo.com">
+</div>
+<x-phono sipnumber="9xxxxxxxx9@sip.tropo.com">Phone call</x-phono>
+</body>
+</html>
