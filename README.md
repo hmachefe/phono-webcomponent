@@ -1,4 +1,4 @@
-# &lt;a-counter&gt;
+# &lt;x-phono&gt;
 
 TODO: This project aims to provide a box on-the-shelf, dedicated to place phone calls, by using SIP, mayering on WebRTC technologies
 
